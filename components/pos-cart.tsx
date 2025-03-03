@@ -117,9 +117,9 @@ export default function PosCart({
           <div className="p-4 border-b border-border flex items-center justify-between bg-card">
             <h2 className="text-xl font-bold">Your Order</h2>
             <DialogClose asChild>
-              <Button variant="ghost" size="icon">
+              {/* <Button variant="ghost" size="icon">
                 <X className="h-4 w-4" />
-              </Button>
+              </Button> */}
             </DialogClose>
           </div>
         )}
